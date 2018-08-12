@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-image: url(img\ copia.png);
+    background-repeat: no-repeat;
+}
+
+#firstBox{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 1920px;
+    height: 932px;
+}
+
+#header{
+    position: relative;
+    margin: auto;
+    background-color: transparent;
+    width: 1170px;
+    height: 67px;
+}
+
+#logo-header{
+    position: absolute;
+    background-color: transparent;
+    color: red;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 128px;
+    height: 36px;
+}
+
+#header ul{
+    width: 1200px;
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 100px;
+    height: 67px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    float: right;
+    margin-right: 30px;
+}
+
+#content-firstBox{
+    position: relative;
+    margin: 170px auto;
+    width: 1170px;
+    height: 325px;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+#text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+#text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+
+#text button{
+    padding: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border: 3px solid white;
+    color: white;
+}
+
+
+#latestProducts{
+    width: 1920px ;
+    height: 1140px;
+    background: white;
+}
+
+#latestProducts hr{
+    position: relative;
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: red;
+    
+    width: 110px;
+}
+
+#latestProducts h2{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.content-1-latestProducts{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.latestProductsDiv{
+    width: 370px;
+    height: 417px;
+    margin-right: 30px;
+}
+
+.latestProductsDiv2{
+    width: 570px;
+    height: 415px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+#trendingItems{
+    width: 1920px;
+    height: 915px;
+    background-image: url(img_bg_trending.png);
+    
+}
+
+#trendingItems hr{
+    position: relative;
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: red;
+    width: 110px;
+}
+
+#trendingItems h2{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+#content-trendingItems{
+    width: 1170px;
+    height: 570px;
+    background: transparent;
+    position: relative;
+    margin: 60px auto;
+    display: flex;
+}
+
+#img-content-trendingItems img{
+    width: 570px;
+    height: 570px;
+}
+
+#text-content-trendingItems{
+    margin: 30px;
+}
+
+#text-content-trendingItems h3{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#text-content-trendingItems p{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttons-size-trendingItems{
+    position: relative;
+    margin: 90px auto;
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.btnSize{
+    width: 70px;
+    height: 50px;
+    margin-right: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btns2{
+    margin-top: 30px;
+}
+
+.btnSize2{
+    width: 170px;
+    height: 50px;
+    margin-right: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnSelect{
+    background: #444;
+    color: white;
+}
+
+#fromTheBlog{
+    width: 1920px;
+    height: 1046px;
+}
+
+
+#fromTheBlog hr{
+    position: relative;
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: red;
+    width: 110px;
+}
+
+#fromTheBlog h2{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+#content-fromTheBlog{
+    background: transparent;
+    width: 1170px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.fromTheBlog-img{
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.fromTheBlog-img h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: red;
+}
+
+.fromTheBlog-img p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.fromTheBlog-img img{
+    width: 570px;
+    height: 400px;
+}
+
+.secondParagraph-blog{
+    margin-top: 67px;
+}
+
+#fromTheBlog button{
+    width: 170px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: transparent;
+    margin-top: 67px;
+    font-size: 16px;
+    
+}
+
+#footer{
+    width: 1920px;
+    height: 245px;
+    background-image: url(img-footer.png);
+}
+
+#content-footer{
+    position: relative;
+    margin: auto;
+    display: flex;
+    width: 1270px;
+}
+
+#content-footer h3{
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+#btns-footer{
+    position: absolute;
+    top: 117px;
+}
+
+#emailbtn{
+    width: 770px;
+    height: 52px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    margin-right: 130px;
+}
+
+#suscribebtn{
+    width: 270px;
+    height: 50px;
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
